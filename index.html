@@ -1,22 +1,17 @@
 <!-----------------------------------------------------------------------
 About Page [12]: Stargazer
 Made by glenthemes
-
 Initial release: 2019/03/07
 Last updated: 2021/10/21
-
 TERMS OF USE:
 1) Do not remove the page credit.
 2) Do not repost/redistribute my themes.
 3) Do not take parts of the code and use it as your own.
 4) Do not use my themes as a base code.
 5) Do not mix my themes together.
-
 Guide:
 docs.google.com/document/d/1LXRZccy9F7vskPp18jG3LeO4BRUxnDfZOz9KrO1BCLg/edit?usp=sharing
-
 --- Credits:
-
 Side image:
 - "Hollow Knight - F2U" pixel art by BelieveTheHorror
   www.deviantart.com/believethehorror/art/Hollow-Knight-F2U-746195471
@@ -703,10 +698,6 @@ pre, code {
     font-size:9px;
     color:var(--Credit-Text);
 }
- 
-  <audio controls autoplay>
-<source src="http://144.217.81.75/driftaway.mp3" type="audio/mpeg">
-</audio>
   
 </style>
  
@@ -905,11 +896,18 @@ pre, code {
 
 
 <!-------MUSIC PLAYER------->
-
+<div id="glenplayer02">
+    <div class="music-controls" onclick="songstart();">
+        <div class="playy">▶</div>
+        <div class="pausee">❚❚</div>
+    </div>    
+    <div class="sonata">♫</div>
+    <div class="labeltext">Hit The Snooze - TLT</div>
+</div>
 <!--music url goes between quotation marks of src=""-->
 <!--pick a tutorial:-->
 <!--linktr.ee/direct_file_links-->
-
+<audio id="tune" src="snooze.mp3" type="audio"></audio>
  
 
 
